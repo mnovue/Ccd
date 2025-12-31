@@ -107,7 +107,7 @@ def run_integration_tests():
         
         # Test URLs
         test_urls = [
-            "https://example.com/test1",
+            "https://beefaucet.org/eth-faucet/",
             "https://example.com/test2",
         ]
         
