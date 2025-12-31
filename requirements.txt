@@ -1,0 +1,11 @@
+# Core dependencies
+requests>=2.28.0
+Pillow>=9.0.0
+
+# Optional for OCR
+# pytesseract>=0.3.10  # Uncomment if needed
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-html>=3.2.0
