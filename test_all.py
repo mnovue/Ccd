@@ -108,7 +108,7 @@ def run_integration_tests():
         # Test URLs
         test_urls = [
             "https://beefaucet.org/eth-faucet/",
-            "https://example.com/test2",
+            "https://www.google.com/recaptcha/api2/demo",
         ]
         
         print(f"Testing dengan {len(test_urls)} URLs...")
