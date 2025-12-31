@@ -36,23 +36,7 @@ class EnhancedABLinksSolver:
         self.use_proxy = use_proxy
         
         # Service patterns
-        self.service_patterns = {
-            'adfly': [
-                r'https?://(?:www\.)?adf\.ly/\d+/(.+)',
-                r'https?://(?:www\.)?adfoc\.us/\d+/(.+)',
-            ],
-            'linkvertise': [
-                r'https?://(?:www\.)?linkvertise\.com/(?:\d+/)?(.+)',
-                r'https?://(?:www\.)?link-to\.net/\d+/(.+)',
-            ],
-            'gyanilinks': [
-                r'https?://(?:www\.)?gyanilinks\.com/\d+/(.+)',
-            ],
-            'shortconnect': [
-                r'https?://(?:www\.)?shortconnect\.com/[A-Za-z0-9]+',
-            ],
-        }
-        
+        self.service_patterns ="https://www.google.com/recaptcha/api2/demo"
         # User agents
         self.user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
